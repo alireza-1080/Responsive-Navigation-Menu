@@ -51,7 +51,8 @@ function App() {
             </div>
             <div className="user--profile-container">
               <h4 className="nav--user-status">Online</h4>
-              {isUserOptionsOpen ? <IoClose className='burger-icon' onClick={() => userOptionsHandler(false)}/> : <img src="./public/images/profile picture sample.jpg" alt="user picture" className="nav--user-image" onClick={() => userOptionsHandler(true)}/>}
+              {isUserOptionsOpen ? <IoClose className='burger-icon' onClick={() => userOptionsHandler(false)}/> : <img src="./public/images/profile picture sample.jpg" alt="user picture" className="nav--user-image-mini" onClick={() => userOptionsHandler(true)}/>}
+              <img src="./public/images/profile picture sample.jpg" alt="user picture" className="nav--user-image"/>
             </div>
           </section>
           {isBurgerOpen && <div className="burger-menu-box">

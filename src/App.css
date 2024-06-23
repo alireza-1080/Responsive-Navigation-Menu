@@ -123,6 +123,10 @@
   display: none;
 }
 
+.nav--user-image-mini{
+  display: none;
+}
+
 @media screen and (max-width: 1113px) {
 
   .nav--position-modifier {
@@ -171,6 +175,17 @@
 }
 
 @media screen and (max-width: 670px) {
+
+  .nav--user-image-mini{
+    display: block;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .nav--user-image{
+    display: none;
+  }
+
   .nav--middle-section-container {
     display: none;
   }
